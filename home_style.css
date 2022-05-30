@@ -7,7 +7,7 @@ html, body {
   background: url('/img/backgroundgif2.gif') no-repeat 50% 50%;
   background-size: cover;
   /*font-family: 'Aldrich', sans-serif;*/
-  font-family: 'Audiowide', cursive;
+  font-family: 'Aldrich', sans-serif;
 }
 
 #loader {
@@ -21,16 +21,70 @@ html, body {
 
 .icon {
   display: block;
-  margin-top: 25px;
+  margin-top: 28px;
   margin-left: auto;
   margin-right: auto;
 }
 
-h1 {
-  position: absolute;
-  top: 47%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#main {
+  box-sizing: border-box;
+  padding: 25px;
+  color: #fff;
+  max-width: 448px;
+  margin: auto;
+  height: 100vh;
+}
+
+#main>* {
+  transition: all 1s;
+  opacity: 1;
+  position: relative;
+  bottom: 0;
+}
+
+#page1>* {
+  transition: all 1s;
+  opacity: 1;
+  position: relative;
+  bottom: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+ul {
+  display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+
+a {
   color: #fff;
 }
 
+a:visited {
+  color:aliceblue;
+}
