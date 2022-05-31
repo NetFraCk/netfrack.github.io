@@ -15,7 +15,7 @@ html, body {
   height: 100vh;
   z-index: 1;
   overflow: visible;
-  background: #000000 url('/img/obamaloader.gif') no-repeat center center;
+  background: #000000 url('/img/pizzaspin.gif') no-repeat center center;
 }
 
 .icon {
