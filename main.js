@@ -29,7 +29,7 @@ async function open_terminal(){
  
   createCode("whois", "who i am");
   createCode("cmds", "lists all the commands");
-  createCode("clear", "clears the terminal.");
+  createCode("clear", "clears the terminal");
 
   await delay(500);
   new_line();
