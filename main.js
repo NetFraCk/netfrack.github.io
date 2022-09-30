@@ -105,7 +105,7 @@ async function getInputValue(){
     createCode("version:", "2.1.0")
     createCode("framework:","vanilla")
     createCode("host:", "github")
-    createCode("last modified:", "oct 4, 2022 @ 11:53pm gmt")
+    createCode("last modified:", "sept 30, 2022 @ 11:27pm gmt")
   }
 
   else if (value === "ami") {
