@@ -25,17 +25,15 @@ async function open_terminal(){
   await delay(700);
   createCode("connecting...","");
   await delay(1500);
-  createText("suggested commands:");
- 
-  createCode("whois", "who i am");
-  createCode("cmds", "lists all the commands");
-  createCode("clear", "clears the terminal");
+  createText("this version of the site is no longer maintained.");
+  await delay(600);
+  createText("thank you for visiting");
 
   await delay(500);
   new_line();
 }
 
-
+/*
 function new_line(){
   
   const p = document.createElement("p");
@@ -80,7 +78,7 @@ async function getInputValue(){
   }
   else if(value === "projects"){
     trueValue(value);
-    createText("coming soon")
+    createCode("Twisp", "My frist real dive into language design, Twisp is a minimal Lisp dialect.");
   }
   else if(value === "whois"){
     trueValue(value);
@@ -128,6 +126,8 @@ async function getInputValue(){
     createText(`command not found: ${value}`)
   }
 }
+*/
+
 
 function trueValue(value){
   
